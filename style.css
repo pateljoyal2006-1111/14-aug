@@ -1288,3 +1288,21 @@ line-height:1.8;
     }
 
 }
+
+/* QR CODE */
+.qr-code {
+    display: block;
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 25px auto;
+}
+
+/* MOBILE QR */
+@media (max-width: 768px) {
+    .qr-code {
+        width: 150px;
+        height: 150px;
+        margin: 25px auto;
+    }
+}
